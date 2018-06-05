@@ -1,12 +1,7 @@
 """
 João Carlos Morgado David.
 
-This program takes a file and creates a new one, where the numbers of the tab are replaced
-by their transposed values. Asks the user which instruments he wants to be transposed, if
-none is given, it transposes over the whole file. If there are multiple instruments, the
-user has to give the program strings to identify when the instrument changes.
-
-Use at your own risk.
+Information on the github page: https://github.com/joaocmd/Tab-Transposer
 """
 import re
 
