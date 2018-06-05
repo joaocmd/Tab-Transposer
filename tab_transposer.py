@@ -1,8 +1,6 @@
-"""
-Jo„o Carlos Morgado David.
+#Jo√£o Carlos Morgado David.
+#Information on the github page: https://github.com/joaocmd/Tab-Transposer
 
-Information on the github page: https://github.com/joaocmd/Tab-Transposer
-"""
 import re
 
 def check_strs_in_line(line, strs):
