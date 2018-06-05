@@ -61,10 +61,10 @@ def main():
      add_strings(invalid_strs, "Red light strings (e.g: Guitar): ")
      
      f = open(file_name + ".txt", "r")
-     new_file = open(file_name + "_new.txt", "w")
      lines = f.readlines()
      f.close()
      
+     new_file = open(file_name + "_new.txt", "w")
      for line in lines:
           if check_strs_in_line(line, valid_strs):
                right_instrument = True
@@ -75,9 +75,8 @@ def main():
           elif right_instrument:
                new_file.write(replace_numbers_in_line(line, tranpose_value))
           else:
-               new_file.write(line)
-                  
+               new_file.write(line)        
+     
      new_file.close()
-     print("what")
           
 main()
