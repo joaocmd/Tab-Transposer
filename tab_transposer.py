@@ -47,7 +47,7 @@ def main():
      """->. This is where the main program runs."""
      
      file_name = input("File name (without \".txt\"): ") 
-     tranpose_value = eval(input("How many frets to transpose: "))
+     tranpose_value = int(input("How many frets to transpose: "))
      right_instrument = False
      
      valid_strs = []
@@ -60,10 +60,10 @@ def main():
      invalid_strs = [] 
      add_strings(invalid_strs, "Red light strings (e.g: Guitar): ")
      
-     file = open(file_name + ".txt", "r")
+     f = open(file_name + ".txt", "r")
      new_file = open(file_name + "_new.txt", "w")
-     lines = file.readlines()
-     file.close()
+     lines = f.readlines()
+     f.close()
      
      for line in lines:
           if check_strs_in_line(line, valid_strs):
