@@ -36,7 +36,7 @@ Guitar 1
 |---5--------------5|
 ```
 
-Creates a new file:
+The new file:
 ```
 |Guitar 1
 |------1---2--3h4--0|
