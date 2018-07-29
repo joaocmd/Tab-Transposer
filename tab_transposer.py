@@ -32,7 +32,7 @@ def replace_numbers_in_line(line, transpose_value):
      return line
 
 def add_strings(l, msg):
-     """ list x string ->. Prints msg and appends each input line to l until it finds an emtpy
+     """list x string ->. Prints msg and appends each input line to l until it finds an emtpy
      line."""
 
      print(msg)
